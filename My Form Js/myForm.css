@@ -1,0 +1,53 @@
+body {
+    background-image: url(./photo-1518112166137-85f9979a43aa.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.inpPad {
+    padding: 16px 81px;
+    color: white;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    width: -moz-available;
+    font-family: 'Baloo Bhaina 2';
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.glow {
+    color: white;
+}
+
+.heading {
+    color: white;
+    margin-top: 9rem;
+    font-family: 'Baloo Bhaina 2';
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.inpcenter {
+    text-align: center;
+    /* font-size: 1rem; */
+}
+
+.btn {
+    padding: 15px 67px;
+    border: 0px;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition: all 1s;
+}
+
+.btn:hover {
+    background-color: grey;
+    transform: skew(180deg);
+}
